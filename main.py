@@ -1,5 +1,4 @@
-from player import Player
+from game import Game
 
-player = Player()
-print(player.__hider.__location)
-player.startGame()
+game = Game()
+game.startGame()
